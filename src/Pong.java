@@ -19,6 +19,7 @@ public class Pong extends Canvas {
             img = ImageIO.read(new File("Pong.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
+
         }
 
     }
@@ -38,3 +39,6 @@ public class Pong extends Canvas {
         Pong minGrafik = new Pong();
     }
 }
+
+
+
